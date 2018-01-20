@@ -44,7 +44,7 @@ int main ()
 {
     vector<int> testvector;
     vector<int>::iterator it;
-
+    cout << "just a test" << endl;
 
     for(int i = 0; i < 10; i++)
         testvector.push_back(i);
