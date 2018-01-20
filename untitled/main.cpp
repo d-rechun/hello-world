@@ -29,7 +29,7 @@ int main ()
     for(int i = 0; i < 11; i++)
         cout << "Hello World!" << endl;
     for(int i = 0; i < 5; i++)
-        cout << "Servus!" << endl;
+        cout << "Na Toll!" << endl;
     for(int i = 0; i < 10; i++)
         testvector.push_back(i);
     testvector = foo(testvector);
