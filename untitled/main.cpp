@@ -31,6 +31,7 @@ int main ()
     for(int i = 0; i < 5; i++)
         cout << "YOLO!" << endl;
     cout << "just a test" << endl;
+    cout << "muhaha" << endl;
 
     for(int i = 0; i < 10; i++)
         testvector.push_back(i);
