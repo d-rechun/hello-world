@@ -3,24 +3,6 @@
 
 using namespace std;
 
-/*int* foo(int *z)
-{
-    int b = 20;
-    z = &b;
-    cout << "Inhalt z ist: " << *z << endl;
-    return z;
-}
-
-int** foo(int *z)
-{
-    int b = 20;
-    int **test;
-    z = &b;
-    test = &z;
-    cout << "Inhalt z ist: " << *z << endl;
-    return test;
-}*/
-
 vector<int> foo(vector<int> a)
 {
     vector<int>::iterator it;
@@ -44,7 +26,8 @@ int main ()
 {
     vector<int> testvector;
     vector<int>::iterator it;
-
+    for(int i = 0; i < 10; i++)
+        cout << "Hello World!" << endl;
 
     for(int i = 0; i < 10; i++)
         testvector.push_back(i);
@@ -89,23 +72,3 @@ int main ()
 
   return 0;
 }
-
-/*
-int main(void)
-{
-    int* a;
-    int** myPointer;
-    int b = 5;
-    int c = 10;
-
-    a = &b;
-
-    myPointer = foo(a);
-    a = *myPointer;
-
-    //a = &c;
-    cout << "Inhalt a ist: " << *a << endl;
-    cout << "Adresse myPointer: " << *myPointer << endl;
-    cout << "Adresse a: " << a << endl;
-    return 0;
-}*/
